@@ -149,8 +149,8 @@ const SocialBoostLanding = () => {
   };
 
   const baseWhatsappLink = "https://wa.me/6281229770783";
-  const resellerWaLink = `${baseWhatsappLink}?text=Halo%20kak,%20saya%20tertarik%20untuk%20join%20jadi%20Reseller%20Boostify.%20Boleh%20minta%20info%20syarat%20dan%20ketentuannya?`;
-  const whatsappLink = `${baseWhatsappLink}?text=Halo%20kak,%20saya%20tertarik%20dengan%20layanan%20Boostify...`;
+  const resellerWaLink = `${baseWhatsappLink}?text=Halo%20kak,%20saya%20tertarik%20untuk%20join%20jadi%20Reseller%20Boostifay.%20Boleh%20minta%20info%20syarat%20dan%20ketentuannya?`;
+  const whatsappLink = `${baseWhatsappLink}?text=Halo%20kak,%20saya%20tertarik%20dengan%20layanan%20Boostifay...`;
 
   // Function to create specific WhatsApp link
   const getOrderLink = () => {
@@ -276,7 +276,6 @@ const SocialBoostLanding = () => {
     { title: "CANVA LIFETIME", variant: "Edu Member", price: 20000 },
     { title: "CANVA LIFETIME", variant: "Famhead 1 pcs", price: 45000 },
     { title: "CANVA LIFETIME", variant: "Famhead 5 pcs", price: 150000 },
-    { title: "CANVA LIFETIME", variant: "Famhead 10 pcs", price: 180000 },
     { title: "CANVA PRO", variant: "Head 1 pcs", price: 15000 },
     { title: "CANVA PRO", variant: "Head 5 pcs", price: 25000 },
     { title: "CAPCUT BASIC (Akun Polos)", variant: "35 pcs", price: 20000 },
@@ -293,8 +292,6 @@ const SocialBoostLanding = () => {
     { title: "CAPCUT PRO", variant: "35 Hari 5 pcs", price: 50000 },
     { title: "CAPCUT PRO", variant: "6 Bulan 1 pcs", price: 85000 },
     { title: "CAPCUT PRO", variant: "6 Bulan 5 pcs", price: 200000 },
-    { title: "CAPCUT PRO PO", variant: "28 Hari 10 pcs", price: 50000 },
-    { title: "CAPCUT PRO PO", variant: "35 Hari 10 pcs", price: 70000 },
     { title: "CHATGPT JASPAY", variant: "Team 30 Hari", price: 20000 },
     { title: "CHATGPT JASPAY", variant: "Plus 30 Hari", price: 20000 },
     { title: "CHATGPT PRIVATE", variant: "1 Bulan", price: 20000 },
@@ -316,7 +313,6 @@ const SocialBoostLanding = () => {
     { title: "SPOTIFY PREMIUM", variant: "30 Hari 1 pcs", price: 15000 },
     { title: "SPOTIFY PREMIUM", variant: "30 Hari 5 pcs", price: 30000 },
     { title: "SPOTIFY PREMIUM", variant: "90 Hari 1 pcs", price: 20000 },
-    { title: "SPOTIFY PREMIUM PO", variant: "10 pcs", price: 60000 },
     { title: "YOUTUBE PREMIUM", variant: "30 Hari 1 pcs", price: 20000 },
     { title: "YOUTUBE PREMIUM", variant: "30 Hari 5 pcs", price: 60000 },
     { title: "YOUTUBE PREMIUM", variant: "90 Hari 1 pcs", price: 35000 },
@@ -393,7 +389,7 @@ const SocialBoostLanding = () => {
         <nav className="bg-slate-950/80 backdrop-blur-md border-b border-white/10 w-full">
           <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent cursor-pointer">
-              Boostify<span className="text-white">.</span>
+              Boostifay<span className="text-white">.</span>
             </div>
             
             {/* Desktop Menu */}
@@ -668,7 +664,7 @@ const SocialBoostLanding = () => {
                 
                 <div className="space-y-4 mb-8">
                   {[
-                    { icon: <DollarSign size={20} />, text: "Modal Rp.0" },
+                    { icon: <DollarSign size={20} />, text: "Harga modal jauh lebih murah" },
                     { icon: <Rocket size={20} />, text: "Proses order prioritas (VVIP)" },
                     { icon: <Award size={20} />, text: "Akses layanan eksklusif" },
                     { icon: <Users size={20} />, text: "Support grup khusus reseller" }
@@ -851,7 +847,7 @@ const SocialBoostLanding = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
              <h2 className="text-3xl md:text-4xl font-bold mb-4">Kenapa Memilih Kami?</h2>
-             <p className="text-slate-400">Keunggulan layanan Boostify dibandingkan yang lain</p>
+             <p className="text-slate-400">Keunggulan layanan Boostifay dibandingkan yang lain</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-6 bg-slate-950/50 rounded-2xl border border-white/5 hover:border-blue-500/30 transition-all">
@@ -973,7 +969,7 @@ const SocialBoostLanding = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-1 md:col-span-2">
               <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mb-4 inline-block">
-                Boostify.
+                Boostifay.
               </div>
               <p className="text-slate-400 max-w-sm mb-6">
                 Platform terpercaya untuk kebutuhan social media boosting dan akun premium legal dengan harga termurah di Indonesia.
@@ -1002,14 +998,14 @@ const SocialBoostLanding = () => {
               <h4 className="font-bold text-white mb-6">Kontak</h4>
               <ul className="space-y-3 text-slate-400">
                 <li>WhatsApp: +62 812-2977-0783</li>
-                <li>Email: support@boostify.id</li>
+                <li>Email: boostifay@gmail.com</li>
                 <li>Jam Kerja: 09:00 - 22:00 WIB</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-white/5 pt-8 text-center text-slate-500">
-            <p>&copy; {new Date().getFullYear()} Boostify Indonesia. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Boostifay Indonesia. All rights reserved.</p>
           </div>
         </div>
       </footer>
