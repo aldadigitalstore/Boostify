@@ -292,6 +292,8 @@ const SocialBoostLanding = () => {
     { title: "CAPCUT PRO", variant: "35 Hari 5 pcs", price: 50000 },
     { title: "CAPCUT PRO", variant: "6 Bulan 1 pcs", price: 85000 },
     { title: "CAPCUT PRO", variant: "6 Bulan 5 pcs", price: 200000 },
+    { title: "CAPCUT PRO PO", variant: "28 Hari 10 pcs", price: 50000 },
+    { title: "CAPCUT PRO PO", variant: "35 Hari 10 pcs", price: 70000 },
     { title: "CHATGPT JASPAY", variant: "Team 30 Hari", price: 20000 },
     { title: "CHATGPT JASPAY", variant: "Plus 30 Hari", price: 20000 },
     { title: "CHATGPT PRIVATE", variant: "1 Bulan", price: 20000 },
@@ -313,6 +315,7 @@ const SocialBoostLanding = () => {
     { title: "SPOTIFY PREMIUM", variant: "30 Hari 1 pcs", price: 15000 },
     { title: "SPOTIFY PREMIUM", variant: "30 Hari 5 pcs", price: 30000 },
     { title: "SPOTIFY PREMIUM", variant: "90 Hari 1 pcs", price: 20000 },
+    { title: "SPOTIFY PREMIUM PO", variant: "10 pcs", price: 60000 },
     { title: "YOUTUBE PREMIUM", variant: "30 Hari 1 pcs", price: 20000 },
     { title: "YOUTUBE PREMIUM", variant: "30 Hari 5 pcs", price: 60000 },
     { title: "YOUTUBE PREMIUM", variant: "90 Hari 1 pcs", price: 35000 },
@@ -358,13 +361,17 @@ const SocialBoostLanding = () => {
     },
     {
       question: "Berapa lama proses pengerjaannya?",
-      answer: "Proses instan! Rata-rata pesanan selesai dalam 10-60 menit setelah pembayaran terkonfirmasi. Maksimal 1x24 jam jika server sedang padat."
+      answer: "Proses cepat! Rata-rata pesanan selesai dalam 10-60 menit setelah pembayaran terkonfirmasi. Maksimal 72 jam jika server sedang padat."
     },
     {
       question: "Apakah ada garansi jika followers turun atau akun bermasalah?",
-      answer: "Ya, kami memberikan garansi refill (isi ulang) selama 30 hari untuk layanan booster dan garansi full masa aktif untuk akun premium."
+      answer: "Ya, kami memberikan garansi refill (isi ulang) selama 30 hari untuk layanan booster dan garansi full masa aktif untuk akun premium sesuai pesanan."
     }
   ];
+
+  const toggleFaq = (index) => {
+    setOpenFaqIndex(openFaqIndex === index ? null : index);
+  };
 
   return (
     <div className="min-h-screen bg-slate-950 text-white font-sans selection:bg-purple-500 selection:text-white overflow-x-hidden">
@@ -754,7 +761,7 @@ const SocialBoostLanding = () => {
               {/* Speed Badge */}
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-6">
                 <Clock size={14} />
-                Estimasi Proses: 0-3 Hari
+                Estimasi Proses: 0-72 Jam
               </div>
 
               {/* Pilihan Paket */}
