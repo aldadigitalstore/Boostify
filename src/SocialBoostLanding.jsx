@@ -148,7 +148,7 @@ const SocialBoostLanding = () => {
     setSelectedQuantity(null);
   };
 
-  const baseWhatsappLink = "https://wa.me/6281229770783";
+  const baseWhatsappLink = "https://wa.me/62882006525796";
   const resellerWaLink = `${baseWhatsappLink}?text=Halo%20kak,%20saya%20tertarik%20untuk%20join%20jadi%20Reseller%20Boostifay.%20Boleh%20minta%20info%20syarat%20dan%20ketentuannya?`;
   const whatsappLink = `${baseWhatsappLink}?text=Halo%20kak,%20saya%20tertarik%20dengan%20layanan%20Boostifay...`;
 
@@ -357,7 +357,7 @@ const SocialBoostLanding = () => {
   const faqs = [
     {
       question: "Apakah layanan ini aman untuk akun saya?",
-      answer: "Sangat aman. Untuk layanan booster, kami hanya membutuhkan username/link tanpa password. Untuk akun premium, kami menggunakan metode legal (family plan/gift card)."
+      answer: "Sangat aman. Untuk layanan booster, kami hanya membutuhkan username/link tanpa password. Untuk akun premium, kami menggunakan metode legal."
     },
     {
       question: "Berapa lama proses pengerjaannya?",
@@ -1004,7 +1004,7 @@ const SocialBoostLanding = () => {
             <div>
               <h4 className="font-bold text-white mb-6">Kontak</h4>
               <ul className="space-y-3 text-slate-400">
-                <li>WhatsApp: +62 812-2977-0783</li>
+                <li>WhatsApp: +62 882-0065-25796</li>
                 <li>Email: boostifay@gmail.com</li>
                 <li>Jam Kerja: 09:00 - 22:00 WIB</li>
               </ul>
