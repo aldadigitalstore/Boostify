@@ -166,9 +166,9 @@ const SocialBoostLanding = () => {
   // DATA SOSIAL MEDIA BOOSTER (FULL DATA BARU - UPDATE)
   const rawBoosterServices = [
     // Instagram
-    { title: "Instagram Followers Indonesia Old Akun", price1k: 100000, price500: 52000 },
-    { title: "Instagram Followers Indonesia Real Aktif", price1k: 150000, price500: 77000 },
-    { title: "Instagram Followers (Mix Indo x Luar)", price1k: 55000, price500: 29500 },
+    { title: "Instagram Followers Indonesia (Tidak Garansi)", price1k: 100000, price500: 52000 },
+    { title: "Instagram Followers Indonesia (Garansi 30 Hari)", price1k: 150000, price500: 77000 },
+    { title: "Instagram Followers mix (Garansi 365 Hari)", price1k: 60000, price500: 31000 },
     { title: "Instagram Likes", price1k: 20000, price500: 12000 },
     { title: "Instagram Views", price1k: 3000, price500: 1500 },
     { title: "Instagram Live Video Views (15 Menit)", price1k: 35000, price500: null },
@@ -181,8 +181,8 @@ const SocialBoostLanding = () => {
     { title: "Instagram Repost", price1k: 25000, price500: 14500 },
     
     // Facebook
-    { title: "Facebook Profil Followers", price1k: 20000, price500: 12000 },
-    { title: "Facebook Page Followers", price1k: 25000, price500: 14500 },
+    { title: "Facebook Profil Followers (Garansi 30 Hari)", price1k: 20000, price500: 12000 },
+    { title: "Facebook Page Followers (Garansi 30 Hari)", price1k: 25000, price500: 14500 },
     { title: "Facebook Page Like", price1k: 30000, price500: 17000 },
     { title: "Facebook Profil Like", price1k: 25000, price500: 14500 },
     { title: "Facebook Group Members", price1k: 25000, price500: 14500 },
@@ -203,8 +203,8 @@ const SocialBoostLanding = () => {
     { title: "Twitter Retweets", price1k: 45000, price500: 24500 },
     
     // TikTok
-    { title: "TikTok Followers Mix (Indo x Luar)", price1k: 50000, price500: 27000 },
-    { title: "TikTok Follower Indonesia", price1k: 130000, price500: 67000 },
+    { title: "TikTok Followers Garansi (30 hari)", price1k: 50000, price500: 27000 },
+    { title: "TikTok Follower Garansi (365 hari)", price1k: 130000, price500: 67000 },
     { title: "TikTok Likes", price1k: 15000, price500: 9500 },
     { title: "TikTok Views", price1k: 10000, price500: 7000 },
     { title: "TikTok Likes Story", price1k: 15000, price500: 9500 },
@@ -231,7 +231,7 @@ const SocialBoostLanding = () => {
     { title: "Youtube Live Streaming Views", price1k: 60000, price500: 32000 },
     { title: "Youtube Short Views", price1k: 40000, price500: 22000 },
     { title: "Youtube Short Likes", price1k: 35000, price500: 19500 },
-    { title: "Youtube Monetisasi (4000 Jam)", price1k: 9000000, price500: null },
+    { title: "Youtube Monetisasi (4000 Jam)", price1k: 900000, price500: null },
     
     // Shopee
     { title: "Shopee Followers Indonesia", price1k: 35000, price500: 19500 },
